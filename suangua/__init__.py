@@ -33,11 +33,12 @@ async def _(bot: Bot, event: Event, arg: Message=CommandArg()):
     array_json=json.loads(json_content)
     try:
         rand=int(arg.extract_plain_text().strip())
+        msg_text=array_json[rand]
     except:
         rand=random.randint(0, 64)
+        msg_text=array_json[rand]
     logger.info(f"算卦：第{rand}卦")
     msg_image=image(f"{gua_path}{rand}.jpg")
-    msg_text=array_json[rand]
     try:
         await suangua.finish(msg_image+msg_text)
     except ActionFailed:
