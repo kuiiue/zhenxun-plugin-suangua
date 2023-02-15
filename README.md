@@ -15,3 +15,5 @@ zhenxun-bot真寻机器人的算卦插件
 - 有些卦辞文本也会莫名其妙风控
 - 因为群友想要运势类小游戏，在[真寻插件目录](https://github.com/zhenxun-org/nonebot_plugins_zhenxun_bot)中找到了[@AkashiCoin](https://github.com/AkashiCoin)大佬的[随机塔罗牌](https://github.com/AkashiCoin/nonebot_plugins_zhenxun_bot/tree/master/tarot)插件，受此启发捣鼓了一个算卦插件，其中抄了大佬塔罗牌插件的两行代码。~~程序员的事怎么能说是扌（啪~~
 - **算卦不算命，求己胜求人。**
+## 更新记录
+- 2023-02-15: 应[@kuai364354200](https://github.com/kuai364354200)的[issue](https://github.com/kuiiue/zhenxun-plugin-suangua/issues/1)建议，返回算卦结果时at发起人，防止多人算卦时搞混。
