@@ -40,9 +40,9 @@ async def _(bot: Bot, event: Event, arg: Message=CommandArg()):
     logger.info(f"算卦：第{rand}卦")
     msg_image=image(f"{gua_path}{rand}.jpg")
     try:
-        await suangua.finish(msg_image+msg_text)
+        await suangua.finish(msg_image+msg_text, at_sender=True)
     except ActionFailed:
         try:
-            await suangua.finish("卦象图片被玄学风控\n\n"+msg_text)
+            await suangua.finish("卦象图片被玄学风控\n\n"+msg_text, at_sender=True)
         except ActionFailed:
-            await suangua.finish('卦象被玄学风控')
+            await suangua.finish('卦象被玄学风控', at_sender=True)
