@@ -3,10 +3,8 @@ zhenxun-bot真寻机器人的算卦插件
 ## 文件说明
 * `suangua/`  
 插件文件夹，直接放到plugin文件夹里就好
-* `suangua/gua/`  
+* `suangua/images/`  
 卦象图片文件夹
-* `suangua/64.json`  
-64卦辞json
 * `suanguan/__init__.py`  
 插件主文件
 ## 使用方法
