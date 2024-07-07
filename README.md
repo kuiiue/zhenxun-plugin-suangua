@@ -25,3 +25,6 @@ zhenxun-bot真寻机器人的算卦插件
 ## 更新记录
 - 2023-02-15: 应[@kuai364354200](https://github.com/kuai364354200)的[issue](https://github.com/kuiiue/zhenxun-plugin-suangua/issues/1)建议，返回算卦结果时at发起人，防止多人算卦时搞混。
 - 2024-07-07: 重新生成了统一样式的卦辞图片，返回时直接返回图片。甚至这些图片的尺寸挺适合做成卡牌，还有牌背...
+
+<img src="https://github.com/kuiiue/zhenxun-plugin-suangua/assets/30593961/73e11399-21c2-49fd-8ec9-7e4268235544" width="300px" alt="1">
+<img src="https://github.com/kuiiue/zhenxun-plugin-suangua/assets/30593961/4dd215ff-0664-4cb2-8ab0-64c394d17c28" width="300px" alt="0">
